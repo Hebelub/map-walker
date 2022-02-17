@@ -3,4 +3,4 @@ project(MapWalker)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MapWalker main.cpp Map.cpp Map.h Country.cpp Country.h)
+add_executable(MapWalker main.cpp Country.cpp Country.h GameStart/MapCreator.cpp GameStart/MapCreator.h)
