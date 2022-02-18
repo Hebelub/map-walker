@@ -8,8 +8,7 @@ int main()
     std::ifstream countries{"GameStart/countries.txt"};
     std::ifstream countryBorders{"GameStart/countryBorders.txt"};
 
-    if (!countries.is_open() &&
-        !countryBorders.is_open())
+    if (!countries.is_open() && !countryBorders.is_open())
     {
         std::cerr << "Couldn't open file(s)." << std::endl;
         std::cerr << "A: " << countries.is_open() <<
